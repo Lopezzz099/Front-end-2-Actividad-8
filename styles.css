@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(219, 219, 219);
+}
+/*header*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+a{
+    text-decoration: none;
+}
+a.cambio{
+    margin-left: 2rem;
+}
+i.moon{
+    display: inline;
+    color: white;
+    font-size: 2rem;
+}
+i.sun{
+    display: none;
+    color: black;
+    font-size: 2rem;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 5rem;
+    width: 100%;
+}
+a.links{
+    color: white;
+    margin-right: 2rem;
+}
+.titulo-p{
+    color: white;
+    font-size: 3.8rem;
+    font-family: 'Lobster', cursive;
+}
+.subtitulo{
+    color: white;
+}
+/*main*/
+#int{
+    padding: 1rem;
+    font-size: 2rem;
+}
+#nac{
+    padding: 1rem;
+    font-size: 2rem;
+}
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 2em 5%;
+}
+.contenedor2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 2em 5%;
+}
+
+.item {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 1.5em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+.item h2{
+    font-size: 2em;
+    margin-bottom: .2em;
+}
+.item2a {
+    width: 35%;
+}
+.item2a h2{
+    font-size: 1em;
+    margin-bottom: .2em;
+}
+.item2a div{
+    background-color: white;
+    box-sizing: border-box;
+    padding: 1.5em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+.item2b {
+    width: 35%;
+}
+.item2b h2{
+    font-size: 1em;
+    margin-bottom: .2em;
+}
+.item2b div{
+    background-color: white;
+    box-sizing: border-box;
+    padding: 1.5em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+img {
+    width: 100%;
+}
+/*footer*/
+footer{
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    align-items: center;
+    background-color: black;
+}
+footer p{
+    color: white;
+}
+
+
+
+
+/* estilos para tema oscuro ---------------------------------------------------------------------------------------------- */
+body.Dark {
+    background-color: rgb(29, 28, 28);
+}
+/*header*/
+header.Dark{
+    background-color: white;
+}
+a.linksDark{
+    color: black;
+    margin-right: 2rem;
+}
+.titulo-pDark{
+    color: black;
+    font-size: 3.8rem;
+    font-family: 'Lobster', cursive;
+}
+.subtituloDark{
+    color: black;
+}
+/*main*/
+.itemDark {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 1.5em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: 1px solid rgb(78, 78, 78);
+}
+h2.Dark{
+    color: white;
+}
+.itemDark h2{
+    font-size: 2em;
+    margin-bottom: .2em;
+}
+.itemDark p{
+    color: white;
+}
+.item2aDark p{
+    color: white;
+}
+.item2bDark p{
+    color: white;
+}
+.item2aDark {
+    width: 35%;
+}
+.item2aDark h2{
+    font-size: 1em;
+    margin-bottom: .2em;
+}
+.item2aDark div{
+    background-color: black;
+    box-sizing: border-box;
+    padding: 1.5em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: 1px solid rgb(78, 78, 78);
+}
+.item2bDark {
+    width: 35%;
+}
+.item2bDark h2{
+    font-size: 1em;
+    margin-bottom: .2em;
+}
+.item2bDark div{
+    background-color: black;
+    box-sizing: border-box;
+    padding: 1.5em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: 1px solid rgb(78, 78, 78);
+}
+
+/*footer*/
+footer.Dark{
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    align-items: center;
+    background-color: white;
+}
+footer.Dark p{
+    color: black;
+}
+
+
